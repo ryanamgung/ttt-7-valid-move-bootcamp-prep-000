@@ -3,7 +3,6 @@ def valid_move?(board, index)
   if(position_taken(board, index) && 0 < index && index < 10)
     true
   end
-  
   false
 end
 
